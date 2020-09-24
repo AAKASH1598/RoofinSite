@@ -1,5 +1,5 @@
 .navbar {
-    background: olivedrab;
+    background: green;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -43,6 +43,7 @@
     width: 60vw;
     justify-content: end;
     margin-right: 2rem;
+    padding-top: 1rem;
   }
   
   .nav-item {

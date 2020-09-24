@@ -32,7 +32,7 @@ function Navbar() {
         
         <div className="navbar">
         <div className="navbar-container">
-            <Link to='/' className="navbar-logo" onClick={CloseMenu}>
+            <Link to='/home' className="navbar-logo" onClick={CloseMenu}>
             EVERON ROOFING<i class="fab fa-rockrms"></i>
             </Link>
          <div className="menu-icon" onClick={handleClick}>
