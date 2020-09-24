@@ -112,8 +112,8 @@ p {
     opacity: .6;
 }
 
-.container {
-    max-width: 750px;
+.contact-container {
+        max-width: 920px;
         width: 100%;
         padding-right: 15px;
         padding-left: 15px;

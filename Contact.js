@@ -20,7 +20,7 @@ function Contact() {
     return (
         <div>
             <section class="parallax_bg parallax contact_bg sec_padding top-banner">
-                <div class="container paralax_content"> 
+                <div className="contact-container paralax_content"> 
                 <div class="row">
                      <div class="col-md-5 col-xs-12 col-sm-6"> 
                      <div class="top_banner_big primary_color_wh">
@@ -29,7 +29,7 @@ function Contact() {
                               </div></div></div></div></section>
 
 <section id="contact-wrap"> 
-<div class="container"> 
+<div className="contact-container"> 
 <div class="row">
 <div> 
 <div class="contact_block"> <div class="row">
@@ -54,7 +54,7 @@ function Contact() {
 </div>  
 </div></div></div></div></div>
 </section>
-                          </div>
+</div>
     )
 }
 
