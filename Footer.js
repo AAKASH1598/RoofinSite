@@ -38,10 +38,10 @@ function Footer() {
                      <div> 
                     <div class="footer-social"> 
                     <ul> 
-                      <li> <a href="https://www.facebook.com/everonrooofingsolutions/" target="blank"> <i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-                       <li> <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li> 
-                       <li> <a href="https://goo.gl/maps/iFT3xr86C8LF827o9" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></li>
-                       <li> <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                      <li> <a href="https://www.facebook.com/everonrooofingsolutions/" target="blank"> <i class="fab fa-facebook-f"></i></a></li>
+                       <li> <a href="#"><i class="fab fa-youtube"></i></a></li> 
+                       <li> <a href="https://goo.gl/maps/iFT3xr86C8LF827o9" target="_blank"><i class="fas fa-map-marker"></i></a></li>
+                       <li> <a href="#"><i class="fab fa-instagram"></i></a></li>
                         </ul></div></div></td> </tr></table>
                         </div></div></section>
          </div>
