@@ -6,10 +6,12 @@ import Home from './Home'
 import Contact from './Contact';
 import Services from './Services'
 import About from './About';
+import ScrollTop from './ScrollTop';
 function App() {
   return (
     <>
     <Router>
+    <ScrollTop/>
     <Navbar/>
       <Switch>
         <Route path='/home'  component={Home} />

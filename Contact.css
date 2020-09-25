@@ -37,6 +37,7 @@ body {
     -webkit-font-smoothing: antialiased;
     font-family: 'Fabriga';
     line-height:1.5;
+    background-color: black;
 }
 
 .paralax_content {
@@ -131,7 +132,7 @@ p {
 .contact_block {
         position: relative;
         margin-top: -50px;
-        background: #fff;
+        background: black;
         padding: 40px 30px;
         box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
         padding-bottom: 90px;
@@ -163,7 +164,7 @@ p {
         margin-bottom: 5px;
     }
 .address {
-        background: green;
+        background: black;
         padding: 30px 15px;
         color: #fff;
         margin-top: 60px;
@@ -173,6 +174,7 @@ p {
 .contact-detail {
         margin-bottom: 30px;
         display: block;
+        background-color: black;
     }
  .cont_num {
         display: flex;
@@ -236,7 +238,7 @@ p {
         box-shadow: none;
         color:white;
         margin-top:4%;
-        color: green;
+        color: black;
     outline:none;
         
         

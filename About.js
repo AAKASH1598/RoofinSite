@@ -53,7 +53,7 @@ function About() {
 </div>
 <div className="copy__box">
 <div class="copy"> 
-Copyright 2019-2020.
+Copyright © 2020 All rights reserved.
 </div>
 </div>
 
