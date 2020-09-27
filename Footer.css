@@ -97,7 +97,7 @@ ol, ul, dl {
 }
 .footer_contact ul span {
     display: inline-block;
-    width: 40px;
+    width: 30px;
     font-size: 28px;
 }
 .footer-social ul li {
@@ -152,4 +152,10 @@ a {
 }
 .padding_left{
     padding-left:15%;
+}
+.mobile-icon{
+    font-size: 30px;
+}
+.footer_contact ul{
+    color:white;
 }

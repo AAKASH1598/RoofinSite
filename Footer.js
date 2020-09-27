@@ -30,7 +30,7 @@ function Footer() {
                   <table class="table-width"><tr><td class="padding_left">
                   <div class="footer_contact"> 
                   <ul> 
-                    <li><span><i class="fa fa-mobile mobile-icon-size" aria-hidden="true"></i></span>+91 95009 93784</li> 
+                    <li><span><i class="fa fa-mobile mobile-icon" aria-hidden="true"></i></span>+91 95009 93784</li> 
                     <li><span><i class="fa fa-envelope contact_mail-icon" aria-hidden="true"></i></span>everonroofingsolutions@gmail.com</li>
                     </ul></div></td>
                     <td class="width"></td>
