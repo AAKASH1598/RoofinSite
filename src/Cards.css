@@ -44,7 +44,7 @@
 
   .services__card:nth-child(1) {
    
-    background-image: url("/img-12.jpg");
+    background-image:linear-gradient(rgba(49,0,255,0.8),rgba(132,5,29,0.8)), url("/img-12.jpg");
   }
   
   .services__card:nth-child(2) {
@@ -61,7 +61,8 @@
       #12d8fa,
       #1fa2ff
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-image: url("/img-10.jpg");
+    background-image: linear-gradient(rgba(49,0,255,0.8),rgba(132,5,29,0.8)),url("/img-10.jpg");
+    
   }
   
   .services__card:nth-child(3) {
@@ -72,7 +73,7 @@
       #ff1361 67%,
       #fff800 100%
     );
-    background-image: url("/img-11.jpg");
+    background-image: linear-gradient(rgba(49,0,255,0.8),rgba(132,5,29,0.8)),url("/img-11.jpg");
   }
 
   .services__card:nth-child(4) {
@@ -89,7 +90,7 @@
       #12d8fa,
       #1fa2ff
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-image: url("/img-4.jpg");
+    background-image: linear-gradient(rgba(49,0,255,0.8),rgba(132,5,29,0.8)),url("/img-4.jpg");
   }
   
   .services__card:nth-child(5) {
@@ -106,7 +107,7 @@
       #12d8fa,
       #1fa2ff
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-image: url("/img-13.jpg");
+    background-image: linear-gradient(rgba(49,0,255,0.8),rgba(132,5,29,0.8)),url("/img-13.jpg");
   }
 
   .services__card:nth-child(6) {
@@ -123,7 +124,7 @@
       #12d8fa,
       #1fa2ff
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-image: url("/img-14.jpg");
+    background-image: linear-gradient(rgba(49,0,255,0.8),rgba(132,5,29,0.8)),url("/img-14.jpg");
   }
 
   .services__card:nth-child(7) {
@@ -140,7 +141,7 @@
       #12d8fa,
       #1fa2ff
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-image: url("/img-15.jpg");
+    background-image: linear-gradient(rgba(49,0,255,0.8),rgba(132,5,29,0.8)),url("/img-15.jpg");
   }
 
   .services__card:nth-child(8) {
@@ -157,7 +158,7 @@
       #12d8fa,
       #1fa2ff
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-image: url("/img-4.jpg");
+    background-image:linear-gradient(rgba(49,0,255,0.8),rgba(132,5,29,0.8)), url("/img-4.jpg");
   }
   .services__card > h2 {
     text-align: center;
