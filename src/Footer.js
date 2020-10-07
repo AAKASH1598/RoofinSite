@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-
+import {Link} from 'react-router-dom'
 
 
 function Footer() {
@@ -12,13 +12,13 @@ function Footer() {
           <div class="col-md-12 col-lg-12 col-sm col-xs"> 
           <div class="footer_link"> 
           <ul> 
-            <li><a href="#">Roofing Sheet</a></li> 
-            <li><a href="#">Colour Coated Roofing Sheet</a></li> 
-            <li><a href="#">MS Roofing Sheet</a></li>
-             <li><a href="#">Aluminium Roofing Sheet</a></li> 
-             <li><a href="#">Paper Sheet</a></li> 
-             <li><a href="#">Industrial Roofing Sheet</a></li> 
-             <li><a href="#">Stainless Steel Roofing Sheet</a></li> 
+            <li><Link to="/product">Roofing Sheet</Link></li> 
+            <li><Link to="/product">Colour Coated Roofing Sheet</Link></li> 
+            <li><Link to="/product">MS Roofing Sheet</Link></li>
+             <li><Link to="/product">Aluminium Roofing Sheet</Link></li> 
+             <li><Link to="/product">Paper Sheet</Link></li> 
+             <li><Link to="/product">Industrial Roofing Sheet</Link></li> 
+             <li><Link to="/product">Stainless Steel Roofing Sheet</Link></li> 
             </ul></div>
            <div class="footer_link"> 
           <ul>

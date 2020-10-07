@@ -8,7 +8,7 @@ class App extends React.Component{
   state = {
     products: [
       {
-        "_id": "1",
+        "id": "1",
         "title": ["Roofing Sheet","Color Coated Roofing Sheet","MS Roofing Sheet","Aluminium Roofing Sheet","Paper Sheet",
     "Industrial Roofing Sheet","Stainless Steel Roofing Sheet"],
         "src": [
@@ -39,10 +39,10 @@ class App extends React.Component{
     images[index].className = "active";
   };
 
-  componentDidMount(){
-    const {index} = this.state;
-    this.myRef.current.children[index].className = "active";
-  }
+  // componentDidMount(){
+  //   const {index} = this.state;
+  //   this.myRef.current.children[index].className = "active";
+  // }
 
 
   render(){
@@ -51,14 +51,14 @@ class App extends React.Component{
       <div className="app">
         {
           products.map(item =>(
-            <div className="details" key={item._id}>
+            <div className="details" key={item.id}>
               <div className="big-img">
                 <Link className="scrolling"  activeClass="active"
                                              spy={true}
                                              hashSpy={true}
                                              offset={50}
-                                             isDynamic={true} to="products__scroll" to= {item.title[index]} smooth={true} duration={500}>
-                    <img src={item.src[index] } alt="" onClick={()=>top.scrollToTop()}></img>
+                                             isDynamic={true}  to= {item.title[index]} smooth={true} duration={500}>
+                    <img src={item.src[index] } alt="" ></img>
                 </Link>
               </div>
 

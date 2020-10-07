@@ -9,6 +9,7 @@ import About from './About';
 import ScrollTop from './ScrollTop';
 import Footer from './Footer';
 import Product from './Product'
+import component from './component';
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
         <Route path='/contact'  component={Contact} />
         <Route path='/products' component={Product}/>
         <Route path='/services'  component={Services} />
+        <Route path='/product' component={component} />
         <Route path='/about'  component={About} />
       </Switch>
      
