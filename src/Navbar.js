@@ -64,12 +64,13 @@ function Navbar() {
              </li>
 
              <li className="nav-item">
-                 <Link to='/about' className="nav-links-sign" onClick={CloseMenu}>
+
+              <Link to='/about' className="nav-links-sign" onClick={CloseMenu}>
                   ABOUT-US
-                 </Link>
+                 </Link> 
              </li>
          </ul>
-         {button && <Button buttonStyle="btn--outline">ABOUT-US</Button>}
+        {button && <Button buttonStyle="btn--outline">ABOUT-US</Button>} 
         </div>
         </div>
        

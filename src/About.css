@@ -92,7 +92,8 @@ body{
 
 
   .products__main{
-    color:white;background-color:black;
+    color:white;
+     background: #131313;
     text-align:center;
     padding:10px 80px;
     text-align: justify;

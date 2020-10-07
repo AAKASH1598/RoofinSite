@@ -167,7 +167,7 @@ a {
     background-color: #242424;
   }
 
-  //for Social media icon effects
+  /* for Social media icon effects */
 /* 
   .footer-social ul {
     display: flex; 
@@ -240,4 +240,29 @@ a {
   
   .footer-social ul li:nth-child(4) a:before {
     background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+  }
+
+  @media screen and (max-width:400px){
+      .footer-container{
+        background-color: #242424;
+        display: flex;
+        padding: 1rem 0 1rem 0;
+        flex-direction: column;
+        max-width: 1120px;
+        min-width: 1300px;
+      }
+      .width{
+        max-width: 120px;
+        display: grid;
+        grid-template-rows: 1fr 1 fr 1 fr 1 fr;
+        
+      }
+      .footer-social ul li {
+         max-width: 120px;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         min-width: 300px;
+              
+        }
   }

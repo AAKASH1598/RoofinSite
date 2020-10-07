@@ -40,21 +40,21 @@ export default function CounterSite(count) {
                  <div className="icon-box">
                  <i class="fas fa-rocket"></i>
                  </div>
-                 <p className="counter"><CountUpAnimation duration={1000}>3000</CountUpAnimation></p>
+                 <p className="counter"><CountUpAnimation duration={4000}>3000</CountUpAnimation></p>
              <p>Projects Completed</p>
              </div>
              <div className="counter-col">
                  <div className="icon-box">
                  <i class="fas fa-user-tie"></i>
                  </div>
-                 <p className="counter"><CountUpAnimation duration={1000}>500</CountUpAnimation></p>
+                 <p className="counter"><CountUpAnimation duration={4000}>500</CountUpAnimation></p>
              <p>Clients</p>
              </div>
              <div className="counter-col">
                  <div className="icon-box">
                  <i class="fas fa-calendar-day"></i>
                  </div>
-                 <p className="counter"><CountUpAnimation duration={1000}>3</CountUpAnimation></p>
+                 <p className="counter"><CountUpAnimation duration={4000}>3</CountUpAnimation></p>
              <p>Successfull Years</p>
              </div>
             </div>         

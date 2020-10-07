@@ -10,7 +10,6 @@ function Home() {
       <Introsite />
       <CounterSite/>
       <Cards/>
-      
     </>
   );
 }

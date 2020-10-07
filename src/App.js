@@ -8,20 +8,23 @@ import Services from './Services'
 import About from './About';
 import ScrollTop from './ScrollTop';
 import Footer from './Footer';
-
+import Product from './Product'
 function App() {
   return (
     <>
     <Router>
+      
     <Navbar/>
     <ScrollTop/>
         <Switch>
+        <Route path='/'  exact component={Home} />
         <Route path='/home'  component={Home} />
-        <Route path='/Contact'  component={Contact} />
+        <Route path='/contact'  component={Contact} />
+        <Route path='/products' component={Product}/>
         <Route path='/services'  component={Services} />
-        <Route path='/About'  component={About} />
+        <Route path='/about'  component={About} />
       </Switch>
-      
+     
       <Footer/>
     </Router>
 

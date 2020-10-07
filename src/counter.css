@@ -65,3 +65,28 @@
     color: #ffc800;
     transform: rotate(-45deg) ;
 }
+@media screen and (max-width: 960px) {
+.counter-section {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+  .counter-row{
+    text-align: center;
+    padding: 1rem;
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  .counter-col{
+    text-align: center;
+    padding: 2rem;
+    width: 90%;
+    display: table;
+    flex-direction: column;
+    margin-right: 40px;
+  }
+}
