@@ -267,6 +267,8 @@ p {
         position: relative;
         border-bottom: 0.0625rem solid #D6D6D6;
         display: block;
+        padding-top : 10px;
+  
     }
 
     i {
@@ -335,3 +337,27 @@ p {
     margin-top:4%;
    outline:none;
 }
+.contact_phone-icon{
+    margin-right:15px;
+}
+.cont_mail{
+    margin-right:15px;
+}
+  label {
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+  }
+  
+  input:focus ~ label,
+  input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: green;
+  }

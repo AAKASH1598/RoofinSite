@@ -37,11 +37,11 @@ function Contact() {
  <div class="contact_form_block"> <h2>Send us a message</h2> <p>Feel free to reach out to us with feedback, we would love to hear from you!</p> 
  <div class="row"> 
  <form onSubmit={sendEmail}>
-  <div class="col-md-6 col-sm-6 col-xs-12 col-lg-6"> <div class="form-group"> <input type="text" name="name" required="required"/> <label for="input" class="control-label">Name</label><i class="bar"></i></div></div>
-  <div class="col-md-6 col-sm-6 col-xs-12 col-lg-6"> <div class="form-group"> <input type="text" name="mobile_no" required="required"/> <label for="input" class="control-label">Mobile / Contact No.</label><i class="bar"></i></div></div> 
-  <div class="col-md-6 col-xs-12 col-lg-6 col-sm-6"> <div class="form-group"> <input type="text"  name="email" required="required"/> <label for="input" class="control-label">Email</label><i class="bar"></i></div></div>
-   <div class="col-md-6 col-xs-12 col-lg-6 col-sm-6"> <div class="form-group"> <input type="text"  name="subject" required="required"/> <label for="input" class="control-label">Subject</label><i class="bar"></i></div></div> 
-   <div class="col-md-12 col-xs-12 col-lg-12 col-sm-6"> <div class="form-group"> <textarea required="required" name="message"></textarea><i class="bar"></i> <label for="textarea" class="control-label">Message</label></div></div> 
+ <div class="col-md-6 col-sm-6 col-xs-12 col-lg-6"> <div class="form-group"> <input type="text" name="name" required="required"/> <label >Name</label><i class="bar"></i></div></div>
+  <div class="col-md-6 col-sm-6 col-xs-12 col-lg-6"> <div class="form-group"> <input type="text" name="mobile_no" required="required"/> <label>Mobile / Contact No.</label><i class="bar"></i></div></div> 
+  <div class="col-md-6 col-xs-12 col-lg-6 col-sm-6"> <div class="form-group"> <input type="text"  name="email" required="required"/> <label>Email</label><i class="bar"></i></div></div>
+   <div class="col-md-6 col-xs-12 col-lg-6 col-sm-6"> <div class="form-group"> <input type="text"  name="subject" required="required"/> <label>Subject</label><i class="bar"></i></div></div> 
+   <div class="col-md-12 col-xs-12 col-lg-12 col-sm-6"> <div class="form-group"> <input type="text" required="required" name="message"/><i class="bar"></i> <label>Message</label></div></div> 
    <div class="col-md-12 col-xs-12 col-lg-12 col-sm-6"> <div class="submitclass"> <div class="submit_btn zr_btn_primary btn-primary fadeInUp _btn_act_mn745 animate-in"><input type="submit" value="Submit" /></div></div></div></form>
 </div></div></div> 
 <div class="address"> 
@@ -49,7 +49,7 @@ function Contact() {
 </div> 
 <div class="contact-detail"> 
  <div class="cont_num"> <span class="contact_phone-icon"><i class="fa fa-mobile mobile-icon-size" aria-hidden="true"></i></span> <span><a href="tel:9500993784">+91 95009 93784</a>, <a href="tel:9500993585">95009 93585</a><br/> <a href="tel:9500993472">+91 95009 93472</a>, <a href="tel:9500993756">95009 93756</a></span></div>
- <div class="cont_mail"> <span><i class="fa fa-envelope contact_mail-icon" aria-hidden="true"></i></span> <span class="font"> everonroofingsolutions@gmail.com </span></div>
+ <div> <span class="cont_mail"><i class="fa fa-envelope contact_mail-icon" aria-hidden="true"></i></span> <span class="font"> everonroofingsolutions@gmail.com </span></div>
 </div>
 </div>  
 </div></div></div></div></div>
