@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 
 function Footer() {
     return (
-        <div className='footer-container'>
+        <div className='footer_container'>
           <section className='footer-subscription'>
           <div> 
           <div class="row"> 
@@ -27,13 +27,13 @@ function Footer() {
               <li><a href="/contact">Contact Us</a></li>
               </ul></div></div></div>
                <div>
-                  <table class="table-width"><tr><td class="padding_left">
+                  <table class="table-width"><tr><td>
                   <div class="footer_contact"> 
                   <ul> 
                     <li><span><i class="fa fa-mobile mobile-icon" aria-hidden="true"></i></span>+91 95009 93784</li> 
                     <li><span><i class="fa fa-envelope contact_mail-icon" aria-hidden="true"></i></span>everonroofingsolutions@gmail.com</li>
                     </ul></div></td>
-                    <td class="width"></td>
+                    <td></td>
                     <td>
                      <div> 
                     <div class="footer-social"> 
