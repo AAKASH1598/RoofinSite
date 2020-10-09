@@ -38,7 +38,7 @@ function Contact() {
  <div class="row"> 
  <form onSubmit={sendEmail}>
  <div class="col-md-6 col-sm-6 col-xs-12 col-lg-6"> <div class="form-group"> <input type="text" name="name" required="required"/> <label >Name</label><i class="bar"></i></div></div>
-  <div class="col-md-6 col-sm-6 col-xs-12 col-lg-6"> <div class="form-group"> <input type="text" name="mobile_no" required="required"/> <label>Mobile / Contact No.</label><i class="bar"></i></div></div> 
+  <div class="col-md-6 col-sm-6 col-xs-12 col-lg-6"> <div class="form-group"> <input type="text" name="mobile_no" required="required"/> <label>Mobile No.</label><i class="bar"></i></div></div> 
   <div class="col-md-6 col-xs-12 col-lg-6 col-sm-6"> <div class="form-group"> <input type="text"  name="email" required="required"/> <label>Email</label><i class="bar"></i></div></div>
    <div class="col-md-6 col-xs-12 col-lg-6 col-sm-6"> <div class="form-group"> <input type="text"  name="subject" required="required"/> <label>Subject</label><i class="bar"></i></div></div> 
    <div class="col-md-12 col-xs-12 col-lg-12 col-sm-6"> <div class="form-group"> <input type="text" required="required" name="message"/><i class="bar"></i> <label>Message</label></div></div> 

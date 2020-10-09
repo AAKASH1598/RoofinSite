@@ -61,7 +61,6 @@ div{
 .footer_link ul li a {
     color: white;
     display: inline-block;
-    padding: 5px 10px;
     text-decoration: none;
     background-color: transparent;
 }
@@ -155,6 +154,7 @@ a {
 }
 .mobile-icon{
     font-size: 30px;
+    margin-right:7px;
 }
 .footer_contact ul{
     color:white;
@@ -242,16 +242,16 @@ a {
     background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
   }
 
-  @media screen and (max-width:400px){
+  /*@media screen and (max-width:400px){*/
       .footer-container{
         background-color: #242424;
         display: flex;
         padding: 1rem 0 1rem 0;
         flex-direction: column;
-        max-width: 1120px;
-        min-width: 1300px;
+       /* max-width: 1120px;
+        min-width: 1300px;*/
       }
-      .width{
+    /*  .width{
         max-width: 120px;
         display: grid;
         grid-template-rows: 1fr 1 fr 1 fr 1 fr;
@@ -265,4 +265,10 @@ a {
          min-width: 300px;
               
         }
-  }
+  }*/
+.contact_mail-icon{
+    margin-right:7px;
+}
+.paddingclass{
+    padding: 5px 10px;
+}
