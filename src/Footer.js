@@ -10,13 +10,13 @@ function Footer() {
           <div class="col-md-12 col-lg-12 col-sm col-xs"> 
           <div class="footer_link"> 
           <ul> 
-            <li className="paddingclass"><Link to="/product">Roofing Sheet</Link></li> 
-            <li className="paddingclass" ><Link to="/product">Colour Coated Roofing Sheet</Link></li> 
-            <li className="paddingclass"><Link to="/product">MS Roofing Sheet</Link></li>
-             <li className="paddingclass"><Link to="/product">Aluminium Roofing Sheet</Link></li> 
-             <li className="paddingclass"><Link to="/product">Paper Sheet</Link></li> 
-             <li className="paddingclass"><Link to="/product">Industrial Roofing Sheet</Link></li> 
-             <li className="paddingclass"><Link to="/product">Stainless Steel Roofing Sheet</Link></li> 
+            <li className="paddingclass"><Link to="/Roofing_Sheet">Roofing Sheet</Link></li> 
+            <li className="paddingclass" ><Link to="/Color_Roof">Colour Coated Roofing Sheet</Link></li> 
+            <li className="paddingclass"><Link to="/MS_Roof">MS Roofing Sheet</Link></li>
+             <li className="paddingclass"><Link to="/Aluminium_Roof">Aluminium Roofing Sheet</Link></li> 
+             <li className="paddingclass"><Link to="/Paper_Sheet">Paper Sheet</Link></li> 
+             <li className="paddingclass"><Link to="/Industrial_Roof">Industrial Roofing Sheet</Link></li> 
+             <li className="paddingclass"><Link to="/Steel_Roof">Stainless Steel Roofing Sheet</Link></li> 
             </ul></div>
            <div class="footer_link"> 
           <ul>
