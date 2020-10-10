@@ -38,7 +38,6 @@ function App() {
         <Route path='/Paper_Sheet' component={Paper_Sheet_Path}/>
         <Route path='/Industrial_Roof' component={Industrial_Roof_Path}/>
       </Switch>
-     
       <Footer/>
     </Router>
 

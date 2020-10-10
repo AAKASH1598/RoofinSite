@@ -1,0 +1,130 @@
+.header h1{
+    color: black;
+    text-align: center;
+    background: linear-gradient(40deg,#ffaf00,#bb02ff);
+    font-stretch: extra-expanded;
+ }
+
+.container_outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(40deg,#ffaf00,#bb02ff);
+    background-attachment: fixed;
+}
+
+.container__main{
+    position: relative;
+    width: 1150px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;   
+}
+
+.container__main .card{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    background: white;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+    transition: 0.5s;
+    
+}
+
+.container__main .card .circle{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: black;
+    clip-path: circle(180px at center 0);
+    text-align: center;
+}
+
+.container__main .card .circle h2{
+  color: white;
+  font-size: 4.5 em;
+  padding: 30px 0;
+}
+
+.container__main .card .circle .fa-user-tie {
+    color: white;
+    font-size: 80px;
+    padding: 30px 0;
+  }
+
+  .container__main .card .circle .fa-stopwatch{
+    color: white;
+    font-size: 80px;
+    padding: 30px 0;
+  }
+
+  .container__main .card .circle .fa-hand-holding-usd {
+    color: white;
+    font-size: 80px;
+    padding: 30px 0;
+  }
+
+  .container__main .card .circle .fa-people-carry {
+    color: white;
+    font-size: 80px;
+    padding: 30px 0;
+  }
+
+  .container__main .card .circle .fa-crown {
+    color: white;
+    font-size: 80px;
+    padding: 30px 0;
+  }
+
+.container__main .card .content{
+    position: absolute;
+    bottom: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .container__main .card .content p{
+    color: #666;
+    
+
+  }
+
+.container__main .card:nth-child(1) .circle{
+  background: #ffaf00;
+  
+}
+.container__main .card:nth-child(2) .circle{
+    background: #da2268;
+}
+.container__main .card:nth-child(3) .circle{
+    background: #bb02ff;
+}
+
+.container__main .card:nth-child(4) .circle{
+    background: #bb4455;
+}
+
+.container__main .card:nth-child(5) .circle{
+    background: goldenrod;
+}
+
+.container__main:hover .card{
+
+    transform: scale(0.9);
+    opacity: 0.5;
+    filter: drop-shadow(20px);
+}
+
+.container__main .card:hover{
+    
+    transform: scale(1.1);
+    opacity: 1;
+   
+}
+

@@ -65,7 +65,7 @@
     color: #ffc800;
     transform: rotate(-45deg) ;
 }
-/* @media screen and (max-width: 960px) { */
+ @media screen and (max-width: 960px) { 
 .counter-section {
     text-align: center;
     padding: 2rem;
@@ -83,10 +83,10 @@
   }
   .counter-col{
     text-align: center;
-    /*padding: 2rem;*/
+    padding: 2rem;
     width: 90%;
     display: table;
     flex-direction: column;
     margin-right: 40px;
   }
-/* } */
+} 
