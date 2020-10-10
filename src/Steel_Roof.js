@@ -51,7 +51,7 @@ class App extends React.Component{
         {
           products.map(item =>(
             <div className="details" key={item.id}>
-              <div className="big-img">
+              <div className="big-img zoom">
               
                     <img src={item.src[index] } alt="" ></img>
              

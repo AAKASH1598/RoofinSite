@@ -52,7 +52,7 @@ class App extends React.Component{
         {
           products.map(item =>(
             <div className="details" key={item.id}>
-              <div className="big-img">
+              <div className="big-img zoom">
                 <Link className="scrolling"  activeClass="active"
                                              spy={true}
                                              hashSpy={true}

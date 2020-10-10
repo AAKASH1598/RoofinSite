@@ -101,4 +101,9 @@ body{
   .products__inner >p{
     line-height: 1.5;
   }
+  @media screen and (max-width: 960px) { 
+  .products__main{
+    padding:20px 30px;
+  }
+  }
 
