@@ -10,7 +10,7 @@ function Introsite() {
    
     <div className='hero-container'>
       <h1>ROOFING SOLUTIONS</h1>
-      <p>What are you waiting for?</p>
+      <p>We are all under the same sky</p>
       
     </div>
   );

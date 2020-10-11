@@ -7,38 +7,19 @@ function Cards() {
         <h1>Our Services</h1>
         <div class="services__wrapper">
           <div class="services__card">
-            <h2>Roofing Sheet</h2>
-            <p>Life Time Warranty</p>
-            <div class="services__btn"><button>Get Started</button></div>
-          </div>
-          <div class="services__card">
             <h2>Color coated Roofing sheet</h2>
-            <p>Life Time Warranty</p>
-            <div class="services__btn"><button>Get Started</button></div>
-          </div>
-          <div class="services__card">
-            <h2>MS Roofing sheet</h2>
-            <p>Life Time Warranty</p>
             <div class="services__btn"><button>Get Started</button></div>
           </div>
           <div class="services__card">
             <h2>Aluminium Roofing Sheet</h2>
-            <p>Life Time Warranty</p>
             <div class="services__btn"><button>Get Started</button></div>
           </div>
           <div class="services__card">
-            <h2>Paper Sheet</h2>
-            <p>1000's of colors</p>
+            <h2>Corrogated Sheet</h2>
             <div class="services__btn"><button>Get Started</button></div>
           </div>
           <div class="services__card">
-            <h2>Industrial Roofing Sheet</h2>
-            <p>Life Time Warranty</p>
-            <div class="services__btn"><button>Get Started</button></div>
-          </div>
-          <div class="services__card">
-            <h2>Fe Steel Roofing Sheet</h2>
-            <p>Rust Free</p>
+            <h2>Polycarbonate Sheet</h2>
             <div class="services__btn"><button>Get Started</button></div>
           </div>
           
