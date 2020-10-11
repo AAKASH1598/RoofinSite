@@ -9,7 +9,7 @@ function About() {
     <div className="products__inner">
       <h1 >About Everon Roofing Solutions</h1>
       <p>Everon Roofing Solutions in Coimbatore is one of the leading businesses in the Roofing Sheet Dealers.
-         Also known for Roofing Sheet Dealers, Roofing Sheet Manufacturers, Colour Coated Roofing Sheet Manufacturers, MS Roofing Sheet Manufacturers, Aluminium Roofing Sheet Manufacturers, Paper Sheet Manufacturers, Industrial Roofing Sheet Manufacturers, Stainless Steel Roofing Sheet Manufacturers and much more. 
+         Also known for Roofing Sheet Dealers, Colour Coated Roofing Sheet, Aluminium Roofing Sheet Manufacturers, Corrogated Sheet, Polycarbonate Sheet and much more. 
         Find Address, Contact Number, Reviews & Ratings, Photos, Maps of Everon Roofing Solutions, Coimbatore.</p>
     </div>
 
@@ -22,12 +22,13 @@ function About() {
   <div className="products__inner">
     <p>Established in the year 2018, Everon Roofing Solutions in Karamadai, 
       Coimbatore is a top player in the category Roofing Sheet Dealers in the Coimbatore. 
-      This well-known establishment acts as a one-stop destination servicing customers both local and from other parts of Coimbatore. Over the course of its journey, this business has established a firm foothold in it’s industry. 
-      The belief that customer satisfaction is as important as their products and services, have helped this establishment garner a vast base of customers, which continues to grow by the day. This business employs individuals that are dedicated towards their respective roles and put in a lot of effort to achieve the common vision and larger goals of the company.
-       In the near future, this business aims to expand its line of products and services and cater to a larger client base. In Coimbatore, this establishment occupies a prominent location in Karamadai. It is an effortless task in commuting to this establishment as there are various modes of transport readily available.
-        It is at Sirumugai Road, Near Scgv School, which makes it easy for first-time visitors in locating this establishment.
-         It is known to provide top service in the following categories: Roofing Sheet Dealers, Roofing Sheet Manufacturers, Colour Coated Roofing Sheet Manufacturers, MS Roofing Sheet Manufacturers,
-          Aluminium Roofing Sheet Manufacturers, Paper Sheet Manufacturers, Industrial Roofing Sheet Manufacturers, Stainless Steel Roofing Sheet Manufacturers.
+      We preserve best products at market leading rates best suitable to clients affordable budget. We provide products made of genuine material that makes them durable and sustainable for a longer time requiring minimum maintenance. We have a team of highly skilled and experienced professionals work closely with every customer, understanding their requirements and providing highly creative and customized solutions that suits each individual needs.
+   <br/><br/>
+   Mission<br/>
+   Our mission is to produce and provide quality services at a very competitive price where both our business vision and customers are totally balanced. Our efforts and skills are to ensure our mission is fulfilled.
+   <br/><br/>Vision<br/>
+   Our vision is to provide people universal access to different kinds of roofing structures and to drive a new era of development, growth, and productivity in the roofing domain.
+    
     </p>
   </div>
  

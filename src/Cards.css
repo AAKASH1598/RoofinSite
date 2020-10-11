@@ -181,7 +181,7 @@
     
   }
   
-  .services__card button {
+  .services__card .button {
     color: #fff;
     padding: 14px 24px;
     border: none;
@@ -201,7 +201,7 @@
     cursor: pointer;
   }
   
-  @media screen and (max-width: 1300px) {
+   @media screen and (max-width: 1300px) {
     .services__wrapper {
       grid-template-columns: 1fr 1fr;
     }
@@ -211,4 +211,4 @@
     .services__wrapper {
       grid-template-columns: 1fr;
     }
-  }
+  } 

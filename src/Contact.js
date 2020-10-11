@@ -2,6 +2,7 @@ import React from 'react';
 import './Contact.css';
 import emailjs from 'emailjs-com';
 
+
 function sendEmail(e) {
     e.preventDefault();
 
@@ -24,8 +25,8 @@ function Contact() {
                 <div class="row">
                      <div class="col-md-5 col-xs-12 col-sm-6"> 
                      <div class="top_banner_big primary_color_wh">
-                         <h2>Let's connect</h2></div> <div class="top_banner_small primary_color_wh">
-                              <p>Do you need more information? Please contact us to find more about our products and services.</p>
+                         <h2>Drop us a line</h2></div> <div class="top_banner_small primary_color_wh">
+                              <p>For more information about our products and services contact us</p>
                               </div></div></div></div></section>
 
 <section id="contact-wrap"> 
@@ -34,7 +35,7 @@ function Contact() {
 <div> 
 <div class="contact_block"> <div class="row">
  <div> 
- <div class="contact_form_block"> <h2>Send us a message</h2> <p>Feel free to reach out to us with feedback, we would love to hear from you!</p> 
+ <div class="contact_form_block">  <p>Please fill the form, we will contact you soon!</p> 
  <div class="row"> 
  <form onSubmit={sendEmail}>
  <div class="col-md-6 col-sm-6 col-xs-12 col-lg-6"> <div class="form-group"> <input type="text" name="name" required="required"/> <label >Name</label><i class="bar"></i></div></div>

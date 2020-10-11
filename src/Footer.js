@@ -13,8 +13,8 @@ function Footer() {
             
             <li className="paddingclass" ><Link to="/Color_Roof">Colour Coated Roofing Sheet</Link></li>  
              <li className="paddingclass"><Link to="/Aluminium_Roof">Aluminium Roofing Sheet</Link></li> 
-             <li className="paddingclass"><Link to="/Paper_Sheet">Corrogated Sheet</Link></li> 
-             <li className="paddingclass"><Link to="/Industrial_Roof">Polycarbonate Sheet</Link></li>  
+             <li className="paddingclass"><Link to="/Corrogated_sheet">Corrogated Sheet</Link></li> 
+             <li className="paddingclass"><Link to="/Polycarbonate_sheet">Polycarbonate Sheet</Link></li>  
             </ul></div>
            <div class="footer_link"> 
           <ul>
