@@ -10,7 +10,7 @@ video {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: 0.5s;
+    transition: 15s;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -21,7 +21,7 @@ video {
     object-fit: contain;
     animation-name: shutters;
     animation-direction: alternate-reverse ; 
-    animation-duration: 5s;
+    animation-duration: 15s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-play-state: running;
@@ -52,7 +52,12 @@ video {
     }
 
   }
-  .downlaod{
+
+
+
+
+
+  .download{
     color: #fff;
     padding: 14px 24px;
     border: none;
@@ -63,45 +68,26 @@ video {
     cursor: pointer;
   }
 
-  .downlaod .fa-download{
+  .download__button{
+    align-items: center;
+    margin-top: 200px;
+  }
+
+  .download .fa-download{
     margin-left: 10px;
     align-items: center;
     cursor: pointer;
   }
-  
 
-  .hero-container > h1 {
-     color:  white;
-    font-size: 120px;
-    margin-top: -100px;
-  }
-  
-  .hero-container > p {
-    margin-top: 8px;
-    color: white;
-    font-size: 32px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
-  }
-  
-  .hero-btns {
-    margin-top: 32px;
-  }
-  
-  .hero-btns .btn {
-    margin: 6px;
-  }
-  
-  .fa-play-circle {
-    margin-left: 4px;
-  }
-  
+ 
+ 
   @media screen and (max-width: 960px) {
     .hero-container > h1 {
       font-size: 70px;
       margin-top: -150px;
     }
   }
+ 
   
   @media screen and (max-width: 768px) {
     .hero-container > h1 {
