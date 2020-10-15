@@ -13,6 +13,7 @@ import Color_Roof_Path from './Product_List/Color_Roof_Path';
 import Polycarbonate_Sheet_Path from './Product_List/Polycarbonate_Sheet_Path';
 import Aluminium_Roof_Path from './Product_List/Aluminium_Roof_Path';
 import Corrogated_Sheet_Path from './Product_List/Corrogated_Sheet_Path';
+
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
       
     <Navbar/>
     <ScrollTop/>
+    
         <Switch>
         <Route path='/'  exact component={Home} />
         <Route path='/home'  component={Home} />
@@ -32,7 +34,7 @@ function App() {
         <Route path='/Aluminium_Roof' component={Aluminium_Roof_Path}/>
         <Route path='/Corrogated_sheet' component={Corrogated_Sheet_Path}/>
       </Switch>
-     
+      
       <Footer/>
     </Router>
 
