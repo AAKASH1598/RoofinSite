@@ -34,6 +34,10 @@ function Introsite() {
   return (
    
     <div className='hero-container'>
+      <div className="text">
+        <span className="word1">WE ARE EVERON ROOFERS</span>
+        <span className="word2">We are all under the same roof</span>
+      </div>
       <div className="download__button" onClick={()=>download()}>
         <button className="download">DOWNLOAD OUR BROUCHER FROM JUST ONE CLICK<i class="fas fa-download"></i></button> 
       </div> 

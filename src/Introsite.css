@@ -53,6 +53,72 @@ video {
 
   }
 
+  .text{
+    
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+  }
+
+  .text span{
+   
+    display: block;
+    text-transform: uppercase;
+    
+  }
+
+  .word1{
+   
+    color:white;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+    position: relative;
+    animation: textmove 3s 1;
+  }
+
+  .word2{
+    font-size: 15px;
+    margin-left: 210px;
+    font-weight: 600;
+    color:white;
+    animation: textmove1 3s 1;
+    
+  }
+
+@keyframes textmove {
+  0%{
+    margin-bottom: -50px;
+    
+  }
+  30%{
+    letter-spacing: 8px;
+    margin-bottom: -50px;
+  }
+  85%{
+    letter-spacing: 5px;
+    margin-bottom: -50px;
+  }
+}
+
+@keyframes textmove1 {
+  0%{
+    color: transparent;
+    
+  }
+  30%{
+    
+    color: transparent;
+  }
+  85%{
+   
+    color: transparent;
+  }
+}
 
 
 
@@ -85,6 +151,19 @@ video {
     .hero-container > h1 {
       font-size: 70px;
       margin-top: -150px;
+    }
+
+    .text{
+      width: 50%;
+    }
+
+    .word1{
+      font-size: 20px;
+      margin-top: 80px;
+    }
+    .word2{
+      font-size: 15px;
+      left: 10;
     }
   }
  
