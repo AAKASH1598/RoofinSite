@@ -51,6 +51,11 @@
     background-size: cover;
     background-position: center;
 }
+.container1 .circle:nth-child(7){
+    background-image: url('/roofsample4.jpg');
+    background-size: cover;
+    background-position: center;
+}
 
 
 .container2 .circle:nth-child(1){
@@ -80,6 +85,11 @@
 }
 .container2 .circle:nth-child(6){
     background-image: url('/roofsample11.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.container2 .circle:nth-child(7){
+    background-image: url('/roofsample5.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -114,8 +124,12 @@
     background-size: cover;
     background-position: center;
 }
-
-.container4 .circle:nth-child(1){
+.container3 .circle:nth-child(7){
+    background-image: url('/roofsample5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/* .container4 .circle:nth-child(1){
     background-image: url('/roofsample4.jpg');
     background-size: cover;
     background-position: center;
@@ -144,7 +158,7 @@
     background-image: url('/roofsample9.jpg');
     background-size: cover;
     background-position: center;
-}
+} */
 
 .container1:hover .card{
 
@@ -200,4 +214,15 @@
     transform: scale(1.1);
     opacity: 1;
    
+}
+.colorfortitle{
+    color: red;
+    /* width:100vw; */
+    text-align: center;
+    background-color: #131313;
+}
+@media screen and (max-width: 960px) {
+    .circle{
+        width:6em;
+    }
 }

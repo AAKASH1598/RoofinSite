@@ -42,3 +42,6 @@
     color: #fff;
     font-size: 100px;
   }
+  div{
+    overflow: hidden;
+  }

@@ -272,3 +272,9 @@ a {
 .paddingclass{
     padding: 5px 10px;
 }
+.contact-detail{
+    background-color: #242424;
+}
+.cont_num{
+justify-content: center;
+}

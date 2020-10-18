@@ -51,7 +51,7 @@
   .box .row h2{
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: black;
+    color: red;
     margin-left: 1rem;
   }
   .box .row span{

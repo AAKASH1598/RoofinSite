@@ -33,7 +33,7 @@ function Navbar() {
         <div className="navbar">
         <div className="navbar-container">
             <Link to='/home' className="navbar-logo" onClick={CloseMenu}>
-            EVERON ROOFING<i class="fab fa-rockrms"></i>
+            EVERON<i class="fab fa-rockrms"></i>
             </Link>
          <div className="menu-icon" onClick={handleClick}>
             <i class={click ? "fas fa-times" : "fas fa-bars"} />

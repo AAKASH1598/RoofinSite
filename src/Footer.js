@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import {Link} from 'react-router-dom'
+import './Contact.css'
 
 
 function Footer() {
@@ -23,11 +24,17 @@ function Footer() {
               <li className="paddingclass"><a href="/contact">Contact Us</a></li>
               </ul></div>
                <div class="footer_link footer-social">
-                 <div>
+                 {/* <div>
                   <ul> 
                     <li className="paddingclass"><span><i class="fa fa-mobile mobile-icon" aria-hidden="true"></i></span>+91 95009 93784, 95009 93585, 95009 93472, 95009 93756</li> 
                     <li className="paddingclass"><span><i class="fa fa-envelope contact_mail-icon" aria-hidden="true"></i></span>everonroofingsolutions@gmail.com</li>
-                     </ul></div><div><ul> <li> <a href="https://www.facebook.com/everonrooofingsolutions/" target="blank"> <i class="fab fa-facebook-f"></i></a></li>
+                     </ul></div> */}
+                  <div class="contact-detail"> 
+ <div class="cont_num"> <span class="contact_phone-icon"><i class="fa fa-mobile mobile-icon-size" aria-hidden="true"></i></span> <span><a href="tel:9500993784">+91 95009 93784</a>, <a href="tel:9500993585">95009 93585</a><br/> <a href="tel:9500993472">+91 95009 93472</a>, <a href="tel:9500993756">95009 93756</a></span></div>
+ <div> <span class="cont_mail"><i class="fa fa-envelope contact_mail-icon" aria-hidden="true"></i></span> <span class="font"> everonroofingsolutions@gmail.com </span></div>
+</div>
+                     
+                     <div><ul> <li> <a href="https://www.facebook.com/everonrooofingsolutions/" target="blank"> <i class="fab fa-facebook-f"></i></a></li>
                        <li> <a href="#"><i class="fab fa-youtube"></i></a></li> 
                        <li> <a href="https://goo.gl/maps/iFT3xr86C8LF827o9" target="_blank"><i class="fas fa-map-marker"></i></a></li>
                        <li> <a href="#"><i class="fab fa-instagram"></i></a></li>

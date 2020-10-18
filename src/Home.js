@@ -9,9 +9,9 @@ function Home() {
   return (
     <>
       <Introsite />
-      <CounterSite/>
-      <Colorlist/> 
+      <CounterSite/> 
       <Cards/>
+      <Colorlist/>
       <Qualities/>
     </>
   );
