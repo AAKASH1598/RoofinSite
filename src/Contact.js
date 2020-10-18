@@ -23,7 +23,7 @@ function Contact() {
             <section class="parallax_bg parallax contact_bg sec_padding top-banner">
                 <div className="contact-container paralax_content"> 
                 <div class="row">
-                     <div class="col-md-5 col-xs-12 col-sm-6"> 
+                     <div> 
                      <div class="top_banner_big primary_color_wh">
                          <h2>Drop us a line</h2></div> <div class="top_banner_small primary_color_wh">
                               <p>For more information about our products and services contact us</p>
