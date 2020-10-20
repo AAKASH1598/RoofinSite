@@ -1,0 +1,11 @@
+[0919/194858.792:ERROR:crashpad.cc(149)] Failed to get activation factory for IPlatformDiagnosticsAndUsageDataSettingsStatics
+[0921/205517.228:ERROR:crashpad.cc(149)] Failed to get activation factory for IPlatformDiagnosticsAndUsageDataSettingsStatics
+[0921/230451.171:ERROR:crashpad.cc(149)] Failed to get activation factory for IPlatformDiagnosticsAndUsageDataSettingsStatics
+[1007/231110.286:ERROR:settings.cc(401)] Settings magic is not 1129342067
+[1010/231013.215:ERROR:settings.cc(430)] Settings version is not 5
+[1010/232013.275:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1011/215150.185:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1013/000803.976:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1013/204407.224:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1016/001346.786:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1018/215439.800:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
