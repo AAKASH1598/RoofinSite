@@ -1,228 +1,68 @@
 .container__color{
-    display: flex;
-    justify-content: center;
-    
-    align-items: center;
     background: #131313;
     background-attachment: fixed;
     padding: 2rem;
-    width: 100%;  
-    
+    width: 100%;
 }
 
-
-.circle{
-  background-color: tomato;
-  padding: 12px;
-  border-radius: 50%;
-  height: 8em;
-  width: 8em;
-  margin-left: 10px;
-  margin-top: 10px;
-}
-
-.container1 .circle:nth-child(1){
-    background-image: url('/roofsample.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.container1 .circle:nth-child(2){
-    background-image: url('/roofsample1.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.container1 .circle:nth-child(3){
-    background-image: url('/roofsample2.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.container1 .circle:nth-child(4){
-    background-image: url('/roofsample3.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.container1 .circle:nth-child(5){
-    background-image: url('/roofsample4.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.container1 .circle:nth-child(6){
-    background-image: url('/roofsample5.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.container1 .circle:nth-child(7){
-    background-image: url('/roofsample4.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-
-.container2 .circle:nth-child(1){
-    background-image: url('/roofsample6.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.container2 .circle:nth-child(2){
-    background-image: url('/roofsample7.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.container2 .circle:nth-child(3){
-    background-image: url('/roofsample8.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.container2 .circle:nth-child(4){
-    background-image: url('/roofsample9.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.container2 .circle:nth-child(5){
-    background-image: url('/roofsample10.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.container2 .circle:nth-child(6){
-    background-image: url('/roofsample11.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.container2 .circle:nth-child(7){
-    background-image: url('/roofsample5.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-.container3 .circle:nth-child(1){
-    background-image: url('/roofsample12.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.container3 .circle:nth-child(2){
-    background-image: url('/roofsample13.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.container3 .circle:nth-child(3){
-    background-image: url('/roofsample14.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.container3 .circle:nth-child(4){
-    background-image: url('/roofsample1.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.container3 .circle:nth-child(5){
-    background-image: url('/roofsample2.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.container3 .circle:nth-child(6){
-    background-image: url('/roofsample3.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.container3 .circle:nth-child(7){
-    background-image: url('/roofsample5.jpg');
-    background-size: cover;
-    background-position: center;
-}
-/* .container4 .circle:nth-child(1){
-    background-image: url('/roofsample4.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.container4 .circle:nth-child(2){
-    background-image: url('/roofsample5.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.container4 .circle:nth-child(3){
-    background-image: url('/roofsample6.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.container4 .circle:nth-child(4){
-    background-image: url('/roofsample7.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.container4 .circle:nth-child(5){
-    background-image: url('/roofsample8.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.container4 .circle:nth-child(6){
-    background-image: url('/roofsample9.jpg');
-    background-size: cover;
-    background-position: center;
-} */
-
-.container1:hover .card{
-
-    transform: scale(0.9);
-    opacity: 0.5;
-    filter: drop-shadow(20px);
-}
-
-.container1 .circle:hover{
-    
-    transform: scale(1.1);
-    opacity: 1;
-   
-}
-
-.container2:hover .card{
-
-    transform: scale(0.9);
-    opacity: 0.5;
-    filter: drop-shadow(20px);
-}
-
-.container2 .circle:hover{
-    
-    transform: scale(1.1);
-    opacity: 1;
-   
-}
-
-.container3:hover .card{
-
-    transform: scale(0.9);
-    opacity: 0.5;
-    filter: drop-shadow(20px);
-}
-
-.container3 .circle:hover{
-    
-    transform: scale(1.1);
-    opacity: 1;
-   
-}
-
-.container4:hover .card{
-
-    transform: scale(0.9);
-    opacity: 0.5;
-    filter: drop-shadow(20px);
-}
-
-.container4 .circle:hover{
-    
-    transform: scale(1.1);
-    opacity: 1;
-   
-}
 .colorfortitle{
     color: red;
-    /* width:100vw; */
-    text-align: center;
-    background-color: #131313;
+    margin-left: 450px;
+    margin-bottom: 20px;
 }
-@media screen and (max-width: 960px) {
-    .circle{
-        width:6em;
-    }
+
+.roofContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+    margin-bottom: 20px;
+    margin: auto;
+    
+}
+
+.roofContainer_list{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.roofContainer_list img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.roofContainer_list:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    opacity: 0.5;
+    filter: drop-shadow(20px);
+}
+
+.modalContainer{
+    width: 50%;
+    height: 44vh;
+    position: fixed;
+    top: 27%;
+    left: 32%;
+    z-index: 10;
+    transition: all 15s ease-in-out;
+    background: rgba(0,0,0,0.8);
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+.modalContainer img{
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+   background-position: center;
+   cursor: pointer;
+   
+   
 }
