@@ -59,7 +59,7 @@ const Colors = () => {
 
     return (
         <div className="container__color">
-            <h1 className="colorfortitle">VARIETY OF COLOR SHEETS</h1>
+            <h1 className="colorfortitle">Available Colors</h1>
             <div className="roofContainer">
                 {data.map(( type, index)=>(
                     <div key ={ index } onClick={ () => handleToggle(type.id)} className="roofContainer_list">

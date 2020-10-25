@@ -58,11 +58,11 @@ class App extends React.Component{
 
               <div className="box">
                 <div className="row">
-                  <h2>{item.title[index]}</h2>
+                <a href="/Corrogated_sheet"><h2>{item.title[2]}</h2></a>
                 </div>
 
-                <p>{item.description}</p>
-                <p>{item.content[index]}</p>
+                <a href="/Corrogated_sheet"><p>{item.description}</p></a>
+                <a href="/Corrogated_sheet"><p>{item.content[2]}</p></a>
 
                 <DetailsThumb images={item.src} tab={this.handleTab} myRef={this.myRef} />
                 

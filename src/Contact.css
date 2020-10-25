@@ -151,10 +151,11 @@ p {
         width:100%;
     }
 
-.contact-detail {
+.contact-detail-contact {
         margin-bottom: 30px;
         display: block;
         background-color: black;
+        color: white;;
     }
  .cont_num {
         display: flex;
@@ -337,3 +338,22 @@ p {
     font-size: 14px;
     color: green;
   }
+  a{
+      color:white;
+  }
+  .cont_num_contact{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+
+  }
+  @media screen and (max-width: 1300px) {
+  .top_banner_big h2 {
+      font-size: 40px;
+      padding : 10px;
+  }
+  .top_banner_small{
+      padding : 10px;
+  }
+}

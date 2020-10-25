@@ -8,20 +8,21 @@ import Services from './Services'
 import About from './About';
 import ScrollTop from './ScrollTop';
 import Footer from './Footer';
-import component from './component';
+import component from './All_Products';
 import Color_Roof_Path from './Product_List/Color_Roof_Path';
 import Polycarbonate_Sheet_Path from './Product_List/Polycarbonate_Sheet_Path';
 import Aluminium_Roof_Path from './Product_List/Aluminium_Roof_Path';
 import Corrogated_Sheet_Path from './Product_List/Corrogated_Sheet_Path';
-
+import Color_Roof_Variety_Path from './Product_List/Color_Roof_Variety_Path';
+import Pipes_Path from './Product_List/Pipes_Path';
+import Screws_Path from './Product_List/Screws_Path';
 function App() {
   return (
     <>
+    
     <Router>
-      
     <Navbar/>
     <ScrollTop/>
-    
         <Switch>
         <Route path='/'  exact component={Home} />
         <Route path='/home'  component={Home} />
@@ -33,8 +34,11 @@ function App() {
         <Route path='/Polycarbonate_sheet' component={Polycarbonate_Sheet_Path}/>
         <Route path='/Aluminium_Roof' component={Aluminium_Roof_Path}/>
         <Route path='/Corrogated_sheet' component={Corrogated_Sheet_Path}/>
+        <Route path='/Color_Roof_Variety' component={Color_Roof_Variety_Path}/>
+        <Route path='/Pipes' component={Pipes_Path}/>
+        <Route path='/Screws' component={Screws_Path}/>
       </Switch>
-      
+     
       <Footer/>
     </Router>
 

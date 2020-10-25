@@ -66,11 +66,11 @@ class App extends React.Component{
 
               <div className="box">
                 <div className="row">
-                  <h2>{item.title[0]}</h2>
+                <a href="/Color_Roof_Variety"><h2>{item.title[0]}</h2></a>
                 </div>
-
-                <p>{item.description}</p>
-                <p>{item.content[0]}</p>
+                <a href="/Color_Roof_Variety"><p className="link">Click to view available colors</p></a>
+                <a href="/Color_Roof_Variety"><p>{item.description}</p></a>
+                <a href="/Color_Roof_Variety"><p>{item.content[0]}</p></a>
 
                 <DetailsThumb images={item.src} tab={this.handleTab} myRef={this.myRef} />
                 

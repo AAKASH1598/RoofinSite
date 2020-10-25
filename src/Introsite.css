@@ -45,7 +45,7 @@ video {
       background-image: url('/img-6.jpg');
     }
     80%{
-      background-image: url('/img-178.jpg');
+      background-image: url('/img-5.jpg');
     }
     100%{
       background-image: url('/img-home.jpg');
@@ -86,7 +86,7 @@ video {
     margin-left: 210px;
     font-weight: 600;
     color:white;
-    animation: textmove1 3s 1;
+     animation: textmove1 3s 1; 
     
   }
 
@@ -154,12 +154,14 @@ video {
     }
 
     .text{
-      width: 50%;
+      width: 100%;
       left: 65%;
+      position: relative;
+      top:20%;
     }
 
     .word1{
-      font-size: 20px;
+      font-size: 17px;
       margin-top: 80px;
     }
     .word2{
@@ -189,3 +191,4 @@ video {
       width: 100%;
     }
   }
+  

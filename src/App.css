@@ -42,6 +42,8 @@
     color: #fff;
     font-size: 100px;
   }
+  @media (max-width: 960px){
   div{
     overflow: hidden;
   }
+}

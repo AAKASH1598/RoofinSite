@@ -1,14 +1,13 @@
 .container__color{
-    background: #131313;
+    background: grey;
     background-attachment: fixed;
     padding: 2rem;
     width: 100%;
 }
 
 .colorfortitle{
-    color: red;
-    margin-left: 450px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .roofContainer{
@@ -17,6 +16,8 @@
     width: 55%;
     margin-bottom: 20px;
     margin: auto;
+    justify-content: center;
+    justify-items: center;
     
 }
 
@@ -28,6 +29,7 @@
     margin-bottom: 20px;
     margin-left: 20px;
     margin-top: 20px;
+    
 }
 
 .roofContainer_list img{
@@ -54,8 +56,7 @@
     background: rgba(0,0,0,0.8);
     cursor: pointer;
     border-radius: 10px;
-    
-}
+    }
 
 .modalContainer img{
    width: 100%;
@@ -63,6 +64,14 @@
    background-size: cover;
    background-position: center;
    cursor: pointer;
-   
-   
+}
+@media (max-width: 960px){
+.thumb{
+    overflow: scroll;
+}
+.roofContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width : 100%;
+}
 }

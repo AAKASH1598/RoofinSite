@@ -42,7 +42,9 @@
     padding-top: 2rem;
    
   } */
-
+  .link{
+    text-decoration: underline;
+  }
   .box .row{
     display: flex;
     justify-content: space-between;
@@ -124,14 +126,16 @@
       
   }
   
-  @media (max-width: 500px){
+  /* @media (max-width: 500px){
     .thumb{
       height: 50px;
+      overflow: scroll;
     }
     .thumb img{
       width: 50px;
+      overflow: scroll;
     }
-  }
+  } */
   .zoom {
     transition: transform .2s; /* Animation */
    }
