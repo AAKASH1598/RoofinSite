@@ -1,6 +1,6 @@
 import React, { useState} from 'react';
 import './Colors.css';
-import sample from './images/roofsample15.jpg'
+import sample from './images/roofsample18.jpeg'
 import sample1 from './images/roofsample16.jpg'
 import sample2 from './images/roofsample17.jpg'
 import sample3 from './images/roofsample3.jpg'

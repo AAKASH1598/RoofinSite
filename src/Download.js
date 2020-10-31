@@ -28,7 +28,15 @@ function Download() {
         <div className="download__button">
         <div><table className="align"><tr><td className="satisfaction">We Provide 100% Customer Satisfied Service</td>
         <td className="brochure">
-          <button className="buttonColor" onClick={()=>download()}>DOWNLOAD BROUCHER<i class="fas fa-download"></i></button></td>
+        <div class="download-btn btn-1">
+		  <div class="top">
+		  Download 
+		  </div>
+		  <div class="bottom">
+          <i class="fas fa-cloud-download-alt" onClick={()=>download()}></i>
+		  </div>
+		</div>
+        </td>
         </tr>
         </table>
         

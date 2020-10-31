@@ -12,7 +12,7 @@ class App extends React.Component{
         "id": "1",
         "title": ["Color Coated Roofing Sheet","Aluminium Roofing Sheet","Corrogated Sheet","Polycarbonate Sheet"],
         "src": [
-          "/roofsample.jpg",
+          "/roofsample18.jpeg",
           "/roofsample1.jpg",
           "/roofsample2.jpg",
           "/roofsample3.jpg",

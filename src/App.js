@@ -16,6 +16,7 @@ import Corrogated_Sheet_Path from './Product_List/Corrogated_Sheet_Path';
 import Color_Roof_Variety_Path from './Product_List/Color_Roof_Variety_Path';
 import Pipes_Path from './Product_List/Pipes_Path';
 import Screws_Path from './Product_List/Screws_Path';
+
 function App() {
   return (
     <>
@@ -38,8 +39,9 @@ function App() {
         <Route path='/Pipes' component={Pipes_Path}/>
         <Route path='/Screws' component={Screws_Path}/>
       </Switch>
-     
+      
       <Footer/>
+      
     </Router>
 
     </>
