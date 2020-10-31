@@ -362,3 +362,8 @@ p {
         font-size: 16px;
     }
 }
+@media screen and (min-width: 980px) {
+    .cont_num_contact{
+        font-size:20px;
+    }
+}

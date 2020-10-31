@@ -49,7 +49,7 @@ function Contact() {
 <div class="contact_address"> <h2>Contact</h2> <span class="font">Everon Roofing Solutions</span> <span class="font">Manufacturer and Supplier of PPGL Roofing Sheets </span> <p className="font">S.f.No. 164/3A2, Near SVGV School, Sirumugai Road, Karamadai, Coimbatore-641 104</p>
 </div> 
 <div class="contact-detail-contact"> 
- <div class="cont_num_contact"> <span class="contact_phone-icon"><i class="fa fa-mobile mobile-icon-size" aria-hidden="true"></i></span> <span><a href="tel:9500993784">+91 95009 93784</a>, <a href="tel:9500993585">95009 93585</a><br/> <a href="tel:9500993472">+91 95009 93472</a>, <a href="tel:9500993756">95009 93756</a></span></div>
+ <div class="cont_num_contact"> <span class="contact_phone-icon"><i class="fa fa-mobile mobile-icon-size" aria-hidden="true"></i></span> <span className="font"><a href="tel:9500993784">+91 95009 93784</a>, <a href="tel:9500993585">95009 93585</a><br/> <a href="tel:9500993472">+91 95009 93472</a>, <a href="tel:9500993756">95009 93756</a></span></div>
  <div> <span class="cont_mail"><i class="fa fa-envelope contact_mail-icon" aria-hidden="true"></i></span> <span class="font"> everonroofingsolutions@gmail.com </span></div>
 </div>
 </div>  

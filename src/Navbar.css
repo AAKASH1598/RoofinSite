@@ -164,6 +164,9 @@
   }
 .navbar{
   overflow: initial;
+  position: fixed;
+  left:0;
+  right:0;
 }
   
  } 

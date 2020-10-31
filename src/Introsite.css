@@ -42,7 +42,7 @@ video {
       background-image: url('/img-4.jpg');
     }
     60%{
-      background-image: url('/img-6.jpg');
+      background-image: url('/img-11.jpg');
     }
     80%{
       background-image: url('/img-5.jpg');
@@ -135,8 +135,9 @@ video {
   }
 
   .download__button{
-    align-items: center;
-    margin-top: 200px;
+    margin-top: 50px;
+    background :#F5F5F5;
+    width: 100%;
   }
 
   .download .fa-download{
@@ -157,7 +158,7 @@ video {
       width: 100%;
       left: 65%;
       position: relative;
-      top:20%;
+      top:5%;
     }
 
     .word1{
@@ -205,3 +206,35 @@ video {
      margin-left:0%
    }
   }
+  @media screen and (min-width: 980px) {
+    .text{
+      left: 0%;
+     transform: translate(0%,0%);
+     text-align: center;
+     top : 30%;
+}
+.download__button{
+  margin-top: 50px;
+}
+.word2{
+  margin-left:0%
+}
+  }
+.satisfaction{
+  color:black;
+  width:65%;
+  padding-left: 2%;
+}
+.brochure{
+  width:35%;
+  padding-left: 1%;
+  padding-right: 4%;
+}
+@media screen and (min-width: 1024px) {
+  .satisfaction{
+    font-size: 20px;
+  }
+  .brochure{
+    font-size: 20px;
+  }
+}
