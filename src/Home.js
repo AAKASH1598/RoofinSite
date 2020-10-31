@@ -7,6 +7,7 @@ import All_Products from './All_Products';
 import './Introsite.css'
 import Download from './Download';
 import HomeAbout from './HomeAbout';
+import SimpleSlider from './Changer'
 function Home() {
   
   
@@ -15,6 +16,7 @@ function Home() {
       <Introsite />
       <Download/> 
       <HomeAbout/>
+      <SimpleSlider/>
       <div><h1 className="color">Our Products</h1></div>
       <All_Products/>
       <CounterSite/>
