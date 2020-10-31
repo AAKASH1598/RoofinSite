@@ -8,7 +8,7 @@ import Colorlist from './Colorlist';
 import All_Products from './All_Products';
 import axios from 'axios';
 import './Introsite.css'
-import Download from './Download';
+
 
 function Home() {
   
