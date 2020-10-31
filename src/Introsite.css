@@ -42,7 +42,7 @@ video {
       background-image: url('/img-4.jpg');
     }
     60%{
-      background-image: url('/img-11.jpg');
+      background-image: url('/img-16.jpg');
     }
     80%{
       background-image: url('/img-5.jpg');
@@ -162,7 +162,7 @@ video {
     }
 
     .word1{
-      font-size: 17px;
+      font-size: 19px;
       margin-top: 80px;
     }
     .word2{
@@ -203,7 +203,8 @@ video {
      margin-top: 350px;
    }
    .word2{
-     margin-left:0%
+     margin-left:0%;
+     font-size :25px;
    }
   }
   @media screen and (min-width: 980px) {
@@ -222,11 +223,11 @@ video {
   }
 .satisfaction{
   color:black;
-  width:65%;
+  /* width:65%; */
   padding-left: 2%;
 }
 .brochure{
-  width:35%;
+  /* width:35%; */
   padding-left: 1%;
   padding-right: 4%;
 }
@@ -237,4 +238,11 @@ video {
   .brochure{
     font-size: 20px;
   }
+}
+.align{
+  margin-left: auto;
+  margin-right: auto;
+}
+.buttonColor{
+  background-color: burlywood;
 }
