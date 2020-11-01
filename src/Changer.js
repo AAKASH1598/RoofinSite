@@ -9,7 +9,7 @@ import sample3 from './images/roofsample3.jpg'
 import sample4 from './images/roofsample4.jpg'
 import sample5 from './images/roofsample5.jpg'
 
-export default function App() {
+export default function SimpleSlider() {
     const data = [
         { id: 2,  img: sample1 },
         { id: 3,  img: sample2 },

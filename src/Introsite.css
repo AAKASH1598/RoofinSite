@@ -261,7 +261,7 @@ video {
  
   }
   .download-btn.btn-1 {
-	border:5px solid #00acee;
+	border:5px solid green;
   }
   .download-btn div {
 	width:100%;
@@ -272,7 +272,7 @@ video {
 	line-height:50px;
   }
   .download-btn.btn-1 .top {
-	background:#00acee;
+	background:green;
   }
   
   .download-btn .bottom {

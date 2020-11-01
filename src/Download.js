@@ -30,10 +30,10 @@ function Download() {
         <td className="brochure">
         <div class="download-btn btn-1">
 		  <div class="top">
-		  Download 
+		  <span className="Broucher__inner">Download Brochure</span>
 		  </div>
 		  <div class="bottom">
-          <i class="fas fa-cloud-download-alt" onClick={()=>download()}></i>
+          <i class="fas fa-cloud-download-alt" onClick={()=>download()}></i> 
 		  </div>
 		</div>
         </td>
