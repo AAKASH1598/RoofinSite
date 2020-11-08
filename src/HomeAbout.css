@@ -30,3 +30,12 @@
 }
 }
 
+@media screen and (min-width: 980px) {
+    .para-text{
+        color:black;
+        margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    }
+    }
