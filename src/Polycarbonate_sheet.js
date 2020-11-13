@@ -2,28 +2,22 @@ import React from 'react';
 import DetailsThumb from './DetailsThumb';
 import './Product.css'
 
-class App extends React.Component{
+class Polycarbonate_sheet extends React.Component{
 
   state = {
     products: [
       {
         "id": "1",
-        "title": ["Color Coated Roofing Sheet","Aluminium Roofing Sheet","Corrogated Sheet","Polycarbonate Sheet"],
+        "title": ["Polycarbonate Sheet"],
         "src": [
-          "/img-18.jpg",
-          "/img-4.jpg",
-          "/corrugated.jpg",
           "/polycarbonate.jpg"
 ],
-        "description": "EVERON ROOFING EXCLUSIVES",
-        "content":[ "Color Roofing Sheets offered are made available by us in different finish specifications so as to perfectly match up with the exact finish demands of the customers. These sheets can be made available by us in different color specifications and are designed using superior-grade material in conformance to defined international quality standards. Further, we also ensure these are well tested on defined parameters so as to ensure flawlessness finish standards. We provide 21 vibrant shades of color coated sheets",
-        "It has the highest strength to weight ratio which is even greater than steel. The robustness and lesser weight make it an ideal solution for roofing. Aluminum sheets doesn't rust or corrode even in the highly corrosive environments. Aluminium is resistant to weathering, even in industrial atmospheres",
-        "Corrugated sheets are stronger than other alternatives due to their rippled structure, as compared to plain surfaces of other sheets. Their repetitive folds on the surface are what offers them the better durability and enhanced strength that they possess. They also pave the way for increased strength across smaller surface areas. Corrugated sheets can also withstand strong impacts from objects falling onto them. This makes them durable and impact resistant, thus long-lasting.",
-        "Polycarbonate sheet is the choice of manufacturers in a wide range of industries because of its benefits. One of the most important is its strength combined with design flexibility. Polycarbonate is 30 times stronger than acrylic and over 200 times stronger than glass. However, it's also more easily molded than glass and is much lighter."],
+        // "description": "EVERON ROOFING EXCLUSIVES",
+        "content":[ "Polycarbonate sheet is the choice of manufacturers in a wide range of industries because of its benefits. One of the most important is its strength combined with design flexibility. Polycarbonate is 30 times stronger than acrylic and over 200 times stronger than glass. However, it's also more easily molded than glass and is much lighter."],
         "count": 3
       }
     ],
-    index: 3
+    index: 0
   };
 
   myRef = React.createRef();
@@ -58,12 +52,12 @@ class App extends React.Component{
 
               <div className="box">
                 <div className="row">
-                  <a href="/Polycarbonate_sheet"><h2>{item.title[3]}</h2>
+                  <a href="/Polycarbonate_sheet"><h2>{item.title[0]}</h2>
                   </a>
                 </div>
 
                 <a href="/Polycarbonate_sheet"><p>{item.description}</p></a>
-                <a href="/Polycarbonate_sheet"><p>{item.content[3]}</p></a>
+                <a href="/Polycarbonate_sheet"><p>{item.content[0]}</p></a>
 
                 <DetailsThumb images={item.src} tab={this.handleTab} myRef={this.myRef} />
                 
@@ -77,4 +71,4 @@ class App extends React.Component{
   };
 }
 
-export default App;
+export default Polycarbonate_sheet;

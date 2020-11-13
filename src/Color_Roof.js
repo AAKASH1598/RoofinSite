@@ -2,31 +2,38 @@ import React from 'react';
 import DetailsThumb from './DetailsThumb';
 import './Product.css'
 
-class App extends React.Component{
+class Color_Roof extends React.Component{
 
   state = {
     products: [
       {
         "id": "1",
-        "title": ["Color Coated Roofing Sheet","Aluminium Roofing Sheet","Corrogated Sheet","Polycarbonate Sheet"],
+        "title": ["Color Coated Roofing Sheet"],
         "src": [
-          "/roofsample18.jpeg",
-          "/roofsample1.jpg",
-          "/roofsample2.jpg",
-          "/roofsample3.jpg",
-          "/roofsample4.jpg",
-          "/roofsample5.jpg",
-          "/roofsample6.jpg",
-          "/roofsample7.jpg",
-          "/roofsample8.jpg",
-          "/roofsample9.jpg",
-          "/roofsample10.jpg",
-          "/roofsample11.jpg",
-          "/roofsample12.jpg",
-          "/roofsample13.jpg",
-          "/roofsample14.jpg"
+          "/rooforange.jpg",
+          "/roofbrickred.jpg",
+          "/roofenviromentgreen.jpg",
+          "/roofgoldenyellow.jpg",
+          "/roofdarkgray.jpg",
+          "/roofmistgreen.jpg",
+          "/roofneonred.jpg",
+          "/roofoffwhite.jpg",
+          "/roofroyalblue.jpg",
+          "/roofskyblue.jpg",
+          "/roofslategray.jpg",
+          "/rooftorquoiseblue.jpg",
+          "/roofcaulifiedgreen.jpg",
+          "/roofchocobrown.jpg",
+          "/roofgalv.jpg",
+          "/roofpurple.jpg",
+          "/roofreliancegreen.jpg",
+          "/roofterracotta.jpg",
+          "/roofcherryred.jpg",
+          "/roofsandal.jpg",
+          "/roofsigalviolet.jpg"
+
           ],
-        "description": "EVERON ROOFING EXCLUSIVES",
+        // "description": "EVERON ROOFING EXCLUSIVES",
         "content":[ "Color Roofing Sheets offered are made available by us in different finish specifications so as to perfectly match up with the exact finish demands of the customers. These sheets can be made available by us in different color specifications and are designed using superior-grade material in conformance to defined international quality standards. Further, we also ensure these are well tested on defined parameters so as to ensure flawlessness finish standards. We provide 21 vibrant shades of color coated sheets"],
         
         "count": 15
@@ -84,4 +91,4 @@ class App extends React.Component{
   };
 }
 
-export default App;
+export default Color_Roof;

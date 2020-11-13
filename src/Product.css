@@ -1,15 +1,17 @@
 .app{
-    max-width: 1200px;
+    max-width: 1200px; 
     width: 100%;
     margin: 1px auto;
-    box-shadow: 0 0 15px #ccc;
+    box-shadow: 0 0 15px black;
     padding:1px;
+    background: white;
   }
   .details{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 30px 0;
+    margin-top: 10%;
   }
   .details .big-img{
     max-width: 500px;
@@ -145,4 +147,14 @@
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.1); 
   }
-  
+  @media screen and (min-width: 360px) {
+  .box p{
+    font-size: 16px;
+  }
+}
+.title__container{
+  background: white;
+}
+.box .product__header{
+  color:green;
+}

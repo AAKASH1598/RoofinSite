@@ -4,12 +4,12 @@ import './Contact.css'
 
 function HomeAbout() {
     return (
-        <div>
+        <div className="home__container">
             <table>
                 <tr>
                     <td className="aligncenter">
                      <span class="title"> 
-                          Welcome to EVERON
+                          WELCOME TO EVERON
                      </span>
                     </td>
                 </tr>

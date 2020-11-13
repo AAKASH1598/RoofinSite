@@ -7,7 +7,7 @@ function About() {
  <div className="products__main" >
   
     <div className="products__inner">
-      <h1 >About</h1>
+      <h1>About</h1>
       <p>We preserve best products at market leading rates best suitable to clients affordable budget. We provide products made of genuine material that makes them durable and sustainable for a longer time requiring minimum maintenance. We have a team of highly skilled and experienced professionals work closely with every customer, understanding their requirements and providing highly creative and customized solutions that suits each individual needs.</p>
     </div>
 

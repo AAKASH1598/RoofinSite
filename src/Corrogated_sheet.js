@@ -2,28 +2,36 @@ import React from 'react';
 import DetailsThumb from './DetailsThumb';
 import './Product.css'
 
-class App extends React.Component{
+class Corrogated_sheet extends React.Component{
 
   state = {
     products: [
       {
         "id": "1",
-        "title": ["Color Coated Roofing Sheet","Aluminium Roofing Sheet","Corrogated Sheet","Polycarbonate Sheet"],
+        "title": ["Corrogated Sheet"],
         "src": [
-            "/img-18.jpg",
-            "/img-4.jpg",
-            "/corrugated.jpg",
-            "/polycarbonate.jpg"
+            "/corrugated.jpg"
           ],
-        "description": "EVERON ROOFING EXCLUSIVES",
-        "content":[ "Color Roofing Sheets offered are made available by us in different finish specifications so as to perfectly match up with the exact finish demands of the customers. These sheets can be made available by us in different color specifications and are designed using superior-grade material in conformance to defined international quality standards. Further, we also ensure these are well tested on defined parameters so as to ensure flawlessness finish standards. We provide 21 vibrant shades of color coated sheets",
-        "It has the highest strength to weight ratio which is even greater than steel. The robustness and lesser weight make it an ideal solution for roofing. Aluminum sheets doesn't rust or corrode even in the highly corrosive environments. Aluminium is resistant to weathering, even in industrial atmospheres",
-        "Corrugated sheets are stronger than other alternatives due to their rippled structure, as compared to plain surfaces of other sheets. Their repetitive folds on the surface are what offers them the better durability and enhanced strength that they possess. They also pave the way for increased strength across smaller surface areas. Corrugated sheets can also withstand strong impacts from objects falling onto them. This makes them durable and impact resistant, thus long-lasting.",
-        "Polycarbonate sheet is the choice of manufacturers in a wide range of industries because of its benefits. One of the most important is its strength combined with design flexibility. Polycarbonate is 30 times stronger than acrylic and over 200 times stronger than glass. However, it's also more easily molded than glass and is much lighter."],
+        // "description": "EVERON ROOFING EXCLUSIVES",
+        "content":"EVERON supplies Galvanized Corrugated (GC) sheets to customer requirements. It not only specialises in thin guage corrugated sheets with thicknesses as low as 0.12mm suitable for low cost roofing for residential homes and industrial sheds but also roofing for heavy industrial housing with thickness upto 0.50mm.",
+        
+
+        "content1":"ALL WEATHER-PROOF",
+
+        "content2":"The Galvanized substrate is available in a wide range of zinc coating to provide supreme corrosion protection in various environmental conditions. GC products are subjected to strict quality control tests to assure performance in all climatic conditions.",
+
+        "content3":"LIGHT WEIGHT & HIGH STRENGTH",
+
+        "content4":"The above attributes have made a household name as people trust it implicitly. Because of these user-friendly attributes, it has been a great success with the customer.",
+
+
+        "content5":"CONVENIENT TO INSTALL AND MAINTENANCE FREE",
+
+        "content6":"GC sheets are easy and quick to install for roofing and cladding applications and totally maintenance free.",
         "count": 1
       }
     ],
-    index: 2
+    index: 0
   };
 
   myRef = React.createRef();
@@ -58,11 +66,18 @@ class App extends React.Component{
 
               <div className="box">
                 <div className="row">
-                <a href="/Corrogated_sheet"><h2>{item.title[2]}</h2></a>
+                <a href="/Corrogated_sheet"><h2>{item.title[0]}</h2></a>
                 </div>
 
                 <a href="/Corrogated_sheet"><p>{item.description}</p></a>
-                <a href="/Corrogated_sheet"><p>{item.content[2]}</p></a>
+                <a href="/Corrogated_sheet"><p>{item.content}</p></a>
+                <p className="product__header">{item.content1}</p>
+                <p>{item.content2}</p>
+                <p className="product__header">{item.content3}</p>
+                <p>{item.content4}</p>
+                <p className="product__header">{item.content5}</p>
+                <p>{item.content6}</p>
+
 
                 <DetailsThumb images={item.src} tab={this.handleTab} myRef={this.myRef} />
                 
@@ -76,4 +91,4 @@ class App extends React.Component{
   };
 }
 
-export default App;
+export default Corrogated_sheet;

@@ -8,6 +8,7 @@ import './Introsite.css'
 import Download from './Download';
 import HomeAbout from './HomeAbout';
 import SimpleSlider from './Changer'
+import './Product.css'
 function Home() {
   
   
@@ -17,9 +18,10 @@ function Home() {
       <Download/> 
       <HomeAbout/>
       <SimpleSlider/>
-      <div><h1 className="color">Our Products</h1></div>
+      <div className="title__container"><h1 className="color">OUR PRODUCTS</h1></div>
       <All_Products/>
       <CounterSite/>
+      <div className="title__container"><h1 className="color">WHO WE ARE</h1></div>
       <Qualities/>
     </>
   );

@@ -6,9 +6,6 @@ body{
   
 }
 
-
-
-
 .bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
     opacity: 0.65;
@@ -63,12 +60,13 @@ body{
     color: #111;
   }
 
-  /* Turn off parallax scrolling for tablets and phones 
-@media only screen and (max-device-width: 1024px) {
+  /* Turn off parallax scrolling for tablets and phones */
+/* @media only screen and (max-width: 980px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
-        background-attachment: scroll;
+        width: 100%;
+        height: 100%;
     }
-} */
+}  */
 .copy {
     justify-content: center;
     background-color:#31353d;
@@ -92,8 +90,8 @@ body{
 
 
   .products__main{
-    color:white;
-     background: #131313;
+    color: black;
+     background:white;
     text-align:center;
     padding:10px 80px;
     text-align: justify;
@@ -119,4 +117,12 @@ body{
   padding-bottom:2%;
   padding-top: 10%;
 }
-
+.products__inner h1{
+  margin-top: 0%;
+}
+@media screen and (max-width: 980px) { 
+  
+  .products__inner h1{
+    margin-top: 30%;
+  }
+}

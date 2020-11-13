@@ -1,21 +1,21 @@
 import React from 'react'
-import Aluminium_Roof from './Aluminium_Roof'
-import Color_Roof from './Color_Roof'
-import Corrogated_sheet from './Corrogated_sheet'
-import Polycarbonate_sheet from './Polycarbonate_sheet'
-import Pipes from './Pipes'
-import Screws from './Screws'
+import AluminiumSheetKM from './AluminiumSheetKM'
+import ColorSheetKM from './ColorSheetKM'
+import CorrogatedKM from './CorrogatedKM'
+import PolyCarbonateKM from './PolyCarbonateKM'
+import PipesKM from './PipesKM'
+import ScrewsKM from './ScrewsKM'
 
 
 function All_Products() {
     return (
         <>
-            <Color_Roof/>
-            <Aluminium_Roof/>
-            <Corrogated_sheet/>
-            <Polycarbonate_sheet/>
-            <Pipes/>
-            <Screws/>
+            <ColorSheetKM/>
+            <AluminiumSheetKM/>
+            <CorrogatedKM/>
+            <PolyCarbonateKM/>
+            <PipesKM/>
+            <ScrewsKM/>
         </>
     )
 }

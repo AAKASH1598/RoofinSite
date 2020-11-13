@@ -118,7 +118,7 @@ p {
 .contact_block {
         position: relative;
         margin-top: -50px;
-        background: black;
+        background: white;
         padding: 40px 30px;
         box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
         padding-bottom: 90px;
@@ -217,7 +217,7 @@ p {
         -webkit-transition: all 0.28s ease;
         transition: all 0.28s ease;
         box-shadow: none;
-        color:white;
+        color : black;
         margin-top:4%;
         outline:none;
         
@@ -245,7 +245,7 @@ p {
 
     .form-group .bar {
         position: relative;
-        border-bottom: 0.0625rem solid #D6D6D6;
+        border-bottom: 0.0625rem solid black;
         display: block;
         padding-top : 10px;
   
@@ -289,6 +289,7 @@ p {
     .contact_form_block form{
         display: contents;
     width: 100%;
+    color: black;
 }
 
 .mobile-icon-size{
@@ -366,4 +367,10 @@ p {
     .cont_num_contact{
         font-size:20px;
     }
+}
+.padding{
+    margin-bottom: 20px;
+}
+.contact_form_block p{
+color:black;
 }

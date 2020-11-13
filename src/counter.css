@@ -25,8 +25,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 100px;
-    margin-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .counter-col p {
   font-size: 20px;
@@ -84,6 +84,12 @@
     width: 90%;
     display: table;
     flex-direction: column;
-    margin-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
   }
 } 
+@media screen and (max-width: 1024px) { 
+  .counter-col{
+padding-right: 30px;
+padding-left: 30px;
+  }}

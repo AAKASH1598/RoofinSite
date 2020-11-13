@@ -8,7 +8,7 @@ function Download() {
   
     
         axios(  {
-            url:'https://images.unsplash.com/photo-1603012618665-6f825a48243f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9',
+            url:'https://images.unsplash.com/photo-1604738253805-a6b117a8dbc0?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9',
             method:'GET',
             responseType:'blob'
         })
@@ -17,7 +17,7 @@ function Download() {
             const URL = window.URL.createObjectURL(new Blob([response.data]))
             const link=document.createElement('a')
             link.href=URL
-            link.setAttribute('download','Broucher.jpg')
+            link.setAttribute('download','Brochure.jpg')
             document.body.appendChild(link)
             link.click()
         })

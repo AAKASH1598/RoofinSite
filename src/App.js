@@ -8,7 +8,7 @@ import Services from './Services'
 import About from './About';
 import ScrollTop from './ScrollTop';
 import Footer from './Footer';
-import component from './All_Products';
+import component from './Product';
 import Color_Roof_Path from './Product_List/Color_Roof_Path';
 import Polycarbonate_Sheet_Path from './Product_List/Polycarbonate_Sheet_Path';
 import Aluminium_Roof_Path from './Product_List/Aluminium_Roof_Path';
@@ -16,7 +16,6 @@ import Corrogated_Sheet_Path from './Product_List/Corrogated_Sheet_Path';
 import Color_Roof_Variety_Path from './Product_List/Color_Roof_Variety_Path';
 import Pipes_Path from './Product_List/Pipes_Path';
 import Screws_Path from './Product_List/Screws_Path';
-
 function App() {
   return (
     <>
@@ -39,9 +38,8 @@ function App() {
         <Route path='/Pipes' component={Pipes_Path}/>
         <Route path='/Screws' component={Screws_Path}/>
       </Switch>
-      
+     
       <Footer/>
-      
     </Router>
 
     </>
